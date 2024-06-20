@@ -1,0 +1,175 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family:helvetica ;
+}
+html, body{
+    height: 100%; width: 100%;
+}
+.main{
+    height: 100%; width: 100%;
+}
+.intro {
+    height: 44%; width: 100%;   padding: 55px 60px;
+}
+.intro h1{
+
+font-size: 120px; line-height: 100px; letter-spacing: -3px;
+
+
+}
+.place{
+
+    display: flex; align-items: center; justify-content: space-between; margin-top: 20px;
+}
+.place h3, .place h4{
+
+    font-size: 30px; font-weight: 600;
+}
+
+.main .pic1{
+height: 100%; width: 100%; background-color: orange;
+
+background-image: url(bent.webp); background-size: cover; margin-top: 38px; 
+
+}
+.nav{
+   display: flex; align-items: center; justify-content: flex-end; padding: 30px 40px;
+position: fixed; width: 100%;
+
+}
+
+.nav h3{
+background-color: black; color: white; padding: 10px 20px; font-size: 20px; border-radius: 50px;
+gap: 20px; margin-left: 4px;
+
+}
+.about{
+
+height: 45%; width: 100%; 
+
+display: flex; align-items: center; justify-content: space-between;
+
+padding: 40px 50px;
+
+}
+.about h2 {
+
+ width: 60%; font-size: 60px; line-height: 60pxpx; font-weight: 1900;
+ letter-spacing: -2px;
+
+}
+.about2{
+
+height: 100%;
+
+width: 30%; 
+
+border-left: 2px solid black;
+
+padding: 0 50px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.about2 h3{
+
+font-size: 30px; font-weight: 700;
+
+
+}
+#icons{
+
+
+
+}
+#icons i{
+
+background-color: black; color: white; padding: 7px; font-size: 20px; margin-right: 10px
+;
+
+}
+
+.work{
+
+height: 65%; width: 100%; 
+border-top: 2px solid black;
+display: flex;
+padding: 50px 60px;
+
+
+}
+#work1{
+
+width: 30%;  height: 100%;
+
+border-right: 2px solid black;
+
+display: flex;
+justify-content: space-between;
+padding-right: 50px;
+
+
+
+}
+#work2{
+
+height: 100%;
+width: 65%; 
+padding: 0 20px;
+
+}
+#work1 h3{
+
+font-size: 30px; 
+}
+#work1 i{
+
+    font-size: 30px;
+}
+
+.work2-part{
+
+
+
+
+display: flex; align-items: center; justify-content: space-between;
+padding: 50px 0px;
+
+}
+.work2-part:nth-child(1){
+
+
+border-bottom: 2px solid black;
+
+
+
+}
+
+.work2-part elem{
+
+width: 50%; height: 100%;
+
+}
+
+.work2-part .elem:nth-child(1) {
+
+    border-right: 2px solid black;
+
+}
+.work2-part .elem:nth-child(2) {
+
+padding-left: 50px;
+
+}
+.work2-part .elem h4{
+
+font-size: 30px;
+
+}
+.work2-part .elem p{
+
+    font-size: px;
+    
+    font-weight: 500; color: rgb(66, 60, 60);
+    }
